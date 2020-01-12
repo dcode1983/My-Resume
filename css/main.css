@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    width: 75%;
+    min-height: 100px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+aside {
+    background-color: red;
+    width: 30%;
+    padding: 10px 20px;
+
+}
+
+aside>h2 {
+    text-align: center;
+}
+
+.profile__photo {
+    text-align: center;
+}
+
+
+
+main {
+    background-color: green;
+    
+    width: calc(100% - 32%);
+}
+
+aside, main {
+    display: inline-block;
+    min-height: 200px;
+}
+
+.skills__list {
+    display: flex;
+    justify-content: space-around;
+}
+
+
